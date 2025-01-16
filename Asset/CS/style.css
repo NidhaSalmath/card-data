@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-family: monospace;
+}
+.card img {
+    border: 2px ;
+  }
+  .card {
+    border: 4px solid black;
+    transition: transform 0.2s ease;
+    /* background: rgb(238, 212, 216); */
+    background: linear-gradient(pink,pink,white);
+  }
+  .card:hover {
+    transform: scale(1.05); 
+    border: none;
+    background: pink;
+  }
