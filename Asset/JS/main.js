@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).ready( () => {
     $.get("./MOCK_DATA.json", (data) => {
       renderCards(data);
   
@@ -25,7 +25,7 @@ $(document).ready(() => {
         const cardContainer = $("#card-container");
         cardContainer.empty();
         if (users.length === 0) {
-          cardContainer.append("<p>No users found for this filter.</p>");
+          cardContainer.append("<p>No users found</p>");
         } else {
           users.forEach((user) => {
             cardContainer.append(`
