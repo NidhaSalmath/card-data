@@ -1,5 +1,5 @@
 $(document).ready( () => {
-    $.get("./MOCK_DATA.json", (data) => {
+    $.get("../asset/js/MOCK_DATA.json", (data) => {
       renderCards(data);
   
       $("#btnAll").on("click",  () => {
